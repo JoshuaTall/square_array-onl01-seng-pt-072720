@@ -1,6 +1,6 @@
 def square_array(array)
   numbers = []
-  array.each do 
+  array.each {|x| x **2}
     
 end
     
