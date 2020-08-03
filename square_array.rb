@@ -1,5 +1,9 @@
 def square_array(array)
-  array.map do |numbers|
-    numbers ** 2
+  count = 0
+  new_array = []
+  while count < array.length do
+    new_array[count] = array[count] ** 2
+    count += 1
   end
+  new_array
 end
