@@ -1,3 +1,5 @@
 def square_array(array)
   numbers = []
-end
+  end
+  numbers.sort
+  end
